@@ -3,13 +3,20 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
+    "axios": "^0.21.1",
+    "next": "^11.0.0",
     "react": "^17.0.2",
+    "react-c3js": "^0.1.20",
     "react-dom": "^17.0.2",
     "swr": "^0.1.18"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.0.1"
+  }
 }
