@@ -34,6 +34,13 @@ export default function Index() {
             <a>{`Chart`}</a>
           </Link>
       </li>
+
+      <li key={"post"}>
+      <Link href="/user/empRoute" >
+            <a>{`POST`}</a>
+          </Link>
+      </li>
+
     </ul>
   )
 }
